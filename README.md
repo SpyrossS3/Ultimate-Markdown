@@ -10,19 +10,19 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 # Table of Contents
 
 - [Headers](#headers)
-  - [Header 1](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L34)
-  - [Header 2](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L40)
-  - [Header 3](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L46)
-  - [Header 4](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L52)
-  - [Header 5](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L58)
-  - [Header 6](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L64)
-  - [Header Level 1](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L70)
-  - [Header Level 2](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L78)
-- [Paragraphs](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L86)
-- [Line Breaks](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L101)
-- [Emphasis](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L117)
-  - [Bold](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L119)
-  - [Italic](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L140)
+  - [Header 1](#header-1)
+  - [Header 2](#header-2)
+  - [Header 3](#header-3)
+  - [Header 4](#header-4)
+  - [Header 5](#header-5)
+  - [Header 6](#header-6)
+  - [Header Level 1](#header-level-1)
+  - [Header Level 2](#header-level-2)
+- [Paragraphs](#paragraphs)
+- [Line Breaks](#line-breaks)
+- [Emphasis](#emphasis)
+  - [## Bold](#-bold)
+  - [## Italic](#-italic)
 
 
 # Headers
