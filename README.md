@@ -21,8 +21,8 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 - [Paragraphs](#paragraphs)
 - [Line Breaks](#line-breaks)
 - [Emphasis](#emphasis)
-  - [## Bold](#-bold)
-  - [## Italic](#-italic)
+  - [Bold](#bold)
+  - [Italic](#italic)
 
 
 # Headers
