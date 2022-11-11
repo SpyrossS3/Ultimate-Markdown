@@ -9,7 +9,7 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 
 # Table of Contents
 
-- [Headers](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L14)
+- [Headers](https://github.com/SpyrossS3/Ultimate-Markdown/blob/main/README.md#L28)
   - [Header 1](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L34)
   - [Header 2](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L40)
   - [Header 3](https://github.com/SpyrossS3/Ultimate-Markdown/blob/8478f42c23ef8103881d2c5513235aa08fd46123/README.md#L46)
