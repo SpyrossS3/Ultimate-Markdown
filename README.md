@@ -1,3 +1,5 @@
+![Ultimate Markdown Logo](UM-Logo1.jpg)
+
 # __Ultimate-Markdown__
 
 The ultimate Markdown cheatsheet! A comprehensive, (eventually) all-encompassing Markdown reference.
