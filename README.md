@@ -30,6 +30,11 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 - [Lists](#lists)
   - [Ordered Lists](#ordered-lists)
   - [Unordered Lists](#unordered-lists)
+- [Code](#code)
+  - [Code Blocks](#code-blocks)
+- [Horizontal Rules](#horizontal-rules)
+- [Links](#links)
+  - [Adding Titles](#adding-titles)
 
 
 # Headers
@@ -94,6 +99,7 @@ Header Level 2
 
 > Paragraphs are only separated by a blank line break inbetween paragraphs and any additional formatting preference is left to the author.
 
+<br>
 
 Paragraph example 1.
 
@@ -108,6 +114,8 @@ Paragraph example 2.
 # Line Breaks
 
 > In Markdown, to leave a line break, you would put two spaces after text and press enter to continue on the next line, but as this is hard to see in an editor, the HTML tag: `<br>` is a much better choice in terms of clean raw formatting.
+
+<br>
 
 Example 1.  
 Example 2.
@@ -124,11 +132,14 @@ Example 3.
 # Emphasis
 
 ## Bold
+
 ---
 
 <br>
 
 > You can use either ** or __ for a bold effect, but since you can only use ** for text within text, I would advise focusing strictly on ** usage.
+
+<br>
 
 **Example 1.**
 
@@ -145,11 +156,14 @@ Ex**ampl**e 3.
 <br>
 
 ## Italic
+
 ---
 
 <br>
 
 > You can use either * or _ for a italic effect, but since you can only use * for text within text, I would advise focusing strictly on * usage.
+
+<br>
 
 *Example 1.*
 
@@ -166,11 +180,14 @@ Ex*ampl*e 3.
 <br>
 
 ## Bold and Italic
+
 ---
 
 <br>
 
 > You can use either \*\*\*, ___, or \_\_\*, \*\*\_ for a italic effect, but since you can only use \*** for text within text, I would advise focusing strictly on \*** usage.
+
+<br>
 
 ***Example 1.***
 
@@ -199,6 +216,7 @@ __*Example 3.*__
 <br>
 
 ## Blockquotes with Multiple Paragraphs
+
 ---
 
 <br>
@@ -214,6 +232,7 @@ __*Example 3.*__
 <br>
 
 ## Nested Blockquotes
+
 ---
 
 <br>
@@ -231,6 +250,7 @@ __*Example 3.*__
 # Lists
 
 ## Ordered Lists
+
 ---
 
 <br>
@@ -250,6 +270,7 @@ __*Example 3.*__
 <br>
 
 ## Unordered Lists
+
 ---
 
 <br>
@@ -288,3 +309,58 @@ __*Example 3.*__
 
 <br>
 
+# Code
+
+`This is a code example.`
+
+    Markup: `This is a code example.`
+
+<br>
+
+## Code Blocks
+
+---
+
+<br>
+
+> Code blocks are created by indenting each line by four spaces or one tab (two tabs in VS Code).
+
+<br>
+
+    This is a code block.
+
+<br>
+
+# Horizontal Rules
+
+<br>
+
+***
+
+---
+
+___
+
+    Markup: ***
+
+            ---
+
+            ___
+
+# Links
+
+Click here to go to [Google](https://google.com).
+
+    Markup: Click here to go to [Google](https://google.com).
+
+<br>
+
+## Adding Titles
+
+---
+
+<br>
+
+Click here to go to [Google](https://google.com "Google Oogle").
+
+    Markup: Click here to go to [Google](https://google.com "Google Oogle").
