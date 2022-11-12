@@ -61,6 +61,7 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 - [Images](#images)
   - [Image Linking](#image-linking)
 - [Escaping Characters](#escaping-characters)
+- [Tables](#tables)
 
 <br>
 
@@ -150,9 +151,9 @@ Example 2.
 Example 3.
 
     Markdown: Example 1.  
-            Example 2.
-            <br>
-            Example 3.
+              Example 2.
+              <br>
+              Example 3.
 
 <br>
 
@@ -497,3 +498,24 @@ Click here to go to [Google](https://google.com "Google Oogle").
         Exclamation Mark: !
 
         Pipe: |
+
+<br>
+
+# Tables
+
+> Although you can have varying cell widths, it doesn't look as readable as one that does have matching widths. You may want to create tables with some other tool or extension.
+> 
+> A couple to try: 
+> 
+> https://www.tablesgenerator.com/markdown_tables
+> https://anywaydata.com/
+
+| Column 1  | Column 2  |
+| --------- | --------- |
+| Headers   | Titles    |
+| Palala    | Text      |
+
+    Markdown: | Column 1  | Column 2  |
+              | --------- | --------- |
+              | Headers   | Titles    |
+              | Palala    | Text      |
