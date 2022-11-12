@@ -14,8 +14,6 @@ It started when I needed a good reference for Markdown, as I was still a beginne
 
 <br>
 
----
-
 ## References
 
 Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdownguide.org/extended-syntax/ for the complete standard reference.
