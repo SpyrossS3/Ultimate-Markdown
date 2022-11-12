@@ -23,6 +23,13 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 - [Emphasis](#emphasis)
   - [Bold](#bold)
   - [Italic](#italic)
+  - [Bold and Italic](#bold-and-italic)
+- [Blockquotes](#blockquotes)
+  - [Blockquotes with Multiple Paragraphs](#blockquotes-with-multiple-paragraphs)
+  - [Nested Blockquotes](#nested-blockquotes)
+- [Lists](#lists)
+  - [Ordered Lists](#ordered-lists)
+  - [Unordered Lists](#unordered-lists)
 
 
 # Headers
@@ -155,6 +162,129 @@ Ex*ampl*e 3.
             _Example 2._
 
             Ex*ampl*e 3.
+
+<br>
+
+## Bold and Italic
+---
+
+<br>
+
+> You can use either \*\*\*, ___, or \_\_\*, \*\*\_ for a italic effect, but since you can only use \*** for text within text, I would advise focusing strictly on \*** usage.
+
+***Example 1.***
+
+___Example 2.___
+
+__*Example 3.*__
+
+**_Example 4._**
+
+    Markup: ***Example 1.***
+
+            ___Example 2.___
+
+            __*Example 3.*__
+
+            **_Example 4._**
+
+<br>
+
+# Blockquotes
+
+> Example 1.
+
+    Markup: > Example 1.
+
+<br>
+
+## Blockquotes with Multiple Paragraphs
+---
+
+<br>
+
+> Example 1.
+>
+> Example 2.
+
+    Markup: > Example 1.
+            >
+            > Example 2.
+
+<br>
+
+## Nested Blockquotes
+---
+
+<br>
+
+> Example 1.
+>
+>> Example 2.
+
+    Markup: > Example 1.
+            >
+            >> Example 2.
+
+<br>
+
+# Lists
+
+## Ordered Lists
+---
+
+<br>
+
+1. Example 1.
+2. Example 2.
+   1. Example 3.
+   2. Example 4.
+3. Example 5.
+        
+        Markup: 1. Example 1.
+                2. Example 2.
+                  1. Example 3.
+                  2. Example 4.
+                3. Example 5.
+
+<br>
+
+## Unordered Lists
+---
+
+<br>
+
+- Example 1.
+- Example 2.
+  - Example 3.
+
+<br>
+
+* Example 1.
+* Example 2.
+  * Example 3.
+
+<br>
+
++ Example 1.
++ Example 2.
+  + Example 3.
+
+        Markup: - Example 1.
+                - Example 2.
+                  - Example 3.
+
+                <br>
+
+                * Example 1.
+                * Example 2.
+                  * Example 3.
+
+                <br>
+
+                + Example 1.
+                + Example 2.
+                  + Example 3.
 
 <br>
 
