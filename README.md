@@ -7,7 +7,16 @@ The ultimate Markdown cheatsheet! A comprehensive, (eventually) all-encompassing
 Much of the beginning information can be found at the links given below, however this Readme provides a concise and well-formatted reference sheet all in one place.
 
 Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdownguide.org/extended-syntax/ for the complete standard reference.
-<br> <br>
+
+<br>
+
+[![ForTheBadge built-by-developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/SpyrossS3/)
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://commonmark.org)
+[![GitHub license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/SpyrossS3/Ultimate-Markdown/blob/main/LICENSE)
+[![HitCount](https://hits.dwyl.com/SpyrossS3/Ultimate-Markdown.svg?style=flat-square&show=unique)](https://hits.dwyl.com/SpyrossS3/Ultimate-Markdown)
+
+<br>
 
 # Table of Contents
 
