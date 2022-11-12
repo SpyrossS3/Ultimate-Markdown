@@ -35,11 +35,16 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 - [Horizontal Rules](#horizontal-rules)
 - [Links](#links)
   - [Adding Titles](#adding-titles)
+  - [URLs and Email Addresses](#urls-and-email-addresses)
+  - [Reference-style Links](#reference-style-links)
+- [Images](#images)
+  - [Image Linking](#image-linking)
 
+<br>
 
 # Headers
 
-> ❗ ❗ Always remember to include a space after # and to leave == and -- on the line directly below your header. ❗ ❗
+> Always remember to include a space after # and to leave == and -- on the line directly below your header.
 
 <br>
 
@@ -347,7 +352,13 @@ ___
 
             ___
 
+<br>
+
 # Links
+
+> There is a compatibility issue with spaces in links. For best outcome, use %20 in a link where there should be a space.
+
+<br>
 
 Click here to go to [Google](https://google.com).
 
@@ -364,3 +375,61 @@ Click here to go to [Google](https://google.com).
 Click here to go to [Google](https://google.com "Google Oogle").
 
     Markup: Click here to go to [Google](https://google.com "Google Oogle").
+
+<br>
+
+## URLs and Email Addresses
+
+---
+
+<br>
+
+<https://amazon.com>
+
+<example@gmail.com>
+
+    Markup: <https://amazon.com>
+
+            <example@gmail.com>
+
+<br>
+
+## Reference-style Links
+
+---
+
+<br>
+
+> You can position the referenced link(s) anywhere else further down in the document.
+
+<br>
+
+[example][1]
+
+[1]: https://google.com/images (example)
+
+    Markup: [example][1]
+
+            [1]: https://google.com/images (example)
+
+<br>
+
+# Images
+
+![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
+
+    Markup: ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
+
+<br>
+
+## Image Linking
+
+---
+
+<br>
+
+[![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
+
+    Markup: [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
+
+<br>
