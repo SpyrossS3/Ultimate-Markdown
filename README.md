@@ -18,8 +18,6 @@ It started when I needed a good reference for Markdown, as I was still a beginne
 
 Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdownguide.org/extended-syntax/ for the complete standard reference.
 
----
-
 <br>
 
 [![ForTheBadge built-by-developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/SpyrossS3/)
