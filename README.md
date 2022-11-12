@@ -53,6 +53,8 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
   - [Unordered Lists](#unordered-lists)
 - [Code](#code)
   - [Code Blocks](#code-blocks)
+  - [Fenced Code Blocks](#fenced-code-blocks)
+    - [Syntax Highlighting](#syntax-highlighting)
 - [Horizontal Rules](#horizontal-rules)
 - [Links](#links)
   - [Adding Titles](#adding-titles)
@@ -62,6 +64,10 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
   - [Image Linking](#image-linking)
 - [Escaping Characters](#escaping-characters)
 - [Tables](#tables)
+  - [Alignment](#alignment)
+    - [Left Alignment](#left-alignment)
+    - [Center Alignment](#center-alignment)
+    - [Right Alignment](#right-alignment)
 
 <br>
 
@@ -352,12 +358,50 @@ __*Example 3.*__
 <br>
 
 > Code blocks are created by indenting each line by four spaces or one tab (two tabs in VS Code).
+> 
+> (It may be more convenient to use fenced code blocks, explained ahead.)
 
 <br>
 
     This is a code block.
 
 <br>
+
+## Fenced Code Blocks
+
+---
+
+<br>
+
+````
+<h2>
+  Hello! This is an example!
+</h2>
+````
+
+    Markdown: ````
+              <h2>
+                Hello! This is an example!
+              </h2>
+              ````
+
+<br>
+
+### Syntax Highlighting
+
+````python
+text = "Hello"
+
+for x in text:
+  print(x + x)
+````
+
+    Markdown: ````python
+              text = "Hello"
+
+              for x in text:
+                print(x + x)
+              ````
 
 # Horizontal Rules
 
@@ -519,3 +563,54 @@ Click here to go to [Google](https://google.com "Google Oogle").
               | --------- | --------- |
               | Headers   | Titles    |
               | Palala    | Text      |
+
+<br>
+
+## Alignment
+
+---
+
+<br>
+
+### Left Alignment
+
+| Column 1  | Column 2  |
+| :-------- | :-------- |
+| Headers   | Titles    |
+| Palala    | Text      |
+
+    Markdown: | Column 1  | Column 2  |
+              | :-------- | :-------- |
+              | Headers   | Titles    |
+              | Palala    | Text      |
+
+<br>
+
+### Center Alignment
+
+| Column 1  | Column 2  |
+| :-------: | :-------: |
+| Headers   | Titles    |
+| Palala    | Text      |
+
+    Markdown: | Column 1  | Column 2  |
+              | :-------: | :-------: |
+              | Headers   | Titles    |
+              | Palala    | Text      |
+
+<br>
+
+### Right Alignment
+
+| Column 1  | Column 2  |
+| --------: | --------: |
+| Headers   | Titles    |
+| Palala    | Text      |
+
+    Markdown: | Column 1  | Column 2  |
+              | --------: | --------: |
+              | Headers   | Titles    |
+              | Palala    | Text      |
+
+<br>
+
