@@ -6,7 +6,21 @@ The ultimate Markdown cheatsheet! A comprehensive, (eventually) all-encompassing
 
 Much of the beginning information can be found at the links given below, however this Readme provides a concise and well-formatted reference sheet all in one place.
 
+<br>
+
+## Why?
+
+It started when I needed a good reference for Markdown, as I was still a beginner trying to learn how to make good and professional-looking documentation on Github, Jupyter, and for code in general. I searched through Github, it wasn't a complete search, but of several I found, it never seemed complete or as well-formatted as I thought it could be. I decided to make something more, an entire community on Github for Markdown, and a strong, yet still concise, to-the-point reference at the core of it all.
+
+<br>
+
+---
+
+## References
+
 Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdownguide.org/extended-syntax/ for the complete standard reference.
+
+---
 
 <br>
 
@@ -50,6 +64,7 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
   - [Reference-style Links](#reference-style-links)
 - [Images](#images)
   - [Image Linking](#image-linking)
+- [Escaping Characters](#escaping-characters)
 
 <br>
 
@@ -61,44 +76,44 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 
 # Header 1
 
-    Markup: # Header 1
+    Markdown: # Header 1
 
 <br>
 
 ## Header 2
 
-    Markup: ## Header 2
+    Markdown: ## Header 2
 
 <br>
 
 ### Header 3
 
-    Markup: ### Header 3
+    Markdown: ### Header 3
 
 <br>
 
 #### Header 4
 
-    Markup: #### Header 4
+    Markdown: #### Header 4
 
 <br>
 
 ##### Header 5
 
-    Markup: ##### Header 5
+    Markdown: ##### Header 5
 
 <br>
 
 ###### Header 6
 
-    Markup: ###### Header 6
+    Markdown: ###### Header 6
 
 <br>
 
 Header Level 1
 ====
 
-    Markup: Header Level 1
+    Markdown: Header Level 1
             ====  
 
 <br>
@@ -106,7 +121,7 @@ Header Level 1
 Header Level 2
 ----
 
-    Markup: Header Level 2
+    Markdown: Header Level 2
             ----
 
 <br>
@@ -121,7 +136,7 @@ Paragraph example 1.
 
 Paragraph example 2.
 
-    Markup: Paragraph example 1.
+    Markdown: Paragraph example 1.
 
             Paragraph example 2.
 
@@ -138,7 +153,7 @@ Example 2.
 <br>
 Example 3.
 
-    Markup: Example 1.  
+    Markdown: Example 1.  
             Example 2.
             <br>
             Example 3.
@@ -163,7 +178,7 @@ __Example 2.__
 
 Ex**ampl**e 3.
 
-    Markup: **Example 1.**
+    Markdown: **Example 1.**
 
             __Example 2.__
 
@@ -187,7 +202,7 @@ _Example 2._
 
 Ex*ampl*e 3.
 
-    Markup: *Example 1.*
+    Markdown: *Example 1.*
 
             _Example 2._
 
@@ -213,7 +228,7 @@ __*Example 3.*__
 
 **_Example 4._**
 
-    Markup: ***Example 1.***
+    Markdown: ***Example 1.***
 
             ___Example 2.___
 
@@ -227,7 +242,7 @@ __*Example 3.*__
 
 > Example 1.
 
-    Markup: > Example 1.
+    Markdown: > Example 1.
 
 <br>
 
@@ -241,7 +256,7 @@ __*Example 3.*__
 >
 > Example 2.
 
-    Markup: > Example 1.
+    Markdown: > Example 1.
             >
             > Example 2.
 
@@ -257,7 +272,7 @@ __*Example 3.*__
 >
 >> Example 2.
 
-    Markup: > Example 1.
+    Markdown: > Example 1.
             >
             >> Example 2.
 
@@ -277,7 +292,7 @@ __*Example 3.*__
    2. Example 4.
 3. Example 5.
         
-        Markup: 1. Example 1.
+        Markdown: 1. Example 1.
                 2. Example 2.
                   1. Example 3.
                   2. Example 4.
@@ -307,7 +322,7 @@ __*Example 3.*__
 + Example 2.
   + Example 3.
 
-        Markup: - Example 1.
+        Markdown: - Example 1.
                 - Example 2.
                   - Example 3.
 
@@ -329,7 +344,7 @@ __*Example 3.*__
 
 `This is a code example.`
 
-    Markup: `This is a code example.`
+    Markdown: `This is a code example.`
 
 <br>
 
@@ -357,7 +372,7 @@ __*Example 3.*__
 
 ___
 
-    Markup: ***
+    Markdown: ***
 
             ---
 
@@ -373,7 +388,7 @@ ___
 
 Click here to go to [Google](https://google.com).
 
-    Markup: Click here to go to [Google](https://google.com).
+    Markdown: Click here to go to [Google](https://google.com).
 
 <br>
 
@@ -385,7 +400,7 @@ Click here to go to [Google](https://google.com).
 
 Click here to go to [Google](https://google.com "Google Oogle").
 
-    Markup: Click here to go to [Google](https://google.com "Google Oogle").
+    Markdown: Click here to go to [Google](https://google.com "Google Oogle").
 
 <br>
 
@@ -399,7 +414,7 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 <example@gmail.com>
 
-    Markup: <https://amazon.com>
+    Markdown: <https://amazon.com>
 
             <example@gmail.com>
 
@@ -419,7 +434,7 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 [1]: https://google.com/images (example)
 
-    Markup: [example][1]
+    Markdown: [example][1]
 
             [1]: https://google.com/images (example)
 
@@ -429,7 +444,7 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
 
-    Markup: ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
+    Markdown: ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
 
 <br>
 
@@ -441,6 +456,48 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
 
-    Markup: [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
+    Markdown: [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
 
 <br>
+
+# Escaping Characters
+
+\* This would be an asterisk without the backslash.
+
+    Markdown: \* This would be an asterisk without the backslash.
+
+<br>
+
+> The following listed can be escaped by a \ where they would otherwise be used to format text in Markdown.
+
+<br>
+
+    Escapable Characters:
+    
+        Backslash: \
+        
+        Backtick: `
+
+        Asterisk: *
+
+        Underscore: _
+
+        Curly Braces: { }
+
+        Brackets: [ ]
+
+        Angle Brackets: < >
+
+        Parentheses: ( )
+
+        Pound Sign: #
+
+        Plus Sign: +
+
+        Minus Sign (hyphen): -
+
+        Dot: .
+
+        Exclamation Mark: !
+
+        Pipe: |
