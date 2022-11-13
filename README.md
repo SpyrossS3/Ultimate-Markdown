@@ -205,8 +205,6 @@ Markdown: Example 1.
 
 ## Bold
 
-<br>
-
 > You can use either ** or __ for a bold effect, but since you can only use ** for text within text, I would advise focusing strictly on ** usage.
 
 <br>
@@ -229,10 +227,6 @@ Markdown: **Example 1.**
 
 ## Italic
 
----
-
-<br>
-
 > You can use either * or _ for a italic effect, but since you can only use * for text within text, I would advise focusing strictly on * usage.
 
 <br>
@@ -254,10 +248,6 @@ Markdown: *Example 1.*
 <br>
 
 ## Bold and Italic
-
----
-
-<br>
 
 > You can use either \*\*\*, ___, or \_\_\*, \*\*\_ for a italic effect, but since you can only use \*** for text within text, I would advise focusing strictly on \*** usage.
 
@@ -295,10 +285,6 @@ Markdown: > Example 1.
 
 ## Blockquotes with Multiple Paragraphs
 
----
-
-<br>
-
 > Example 1.
 >
 > Example 2.
@@ -312,10 +298,6 @@ Markdown: > Example 1.
 <br>
 
 ## Nested Blockquotes
-
----
-
-<br>
 
 > Example 1.
 >
@@ -332,10 +314,6 @@ Markdown: > Example 1.
 # Lists
 
 ## Ordered Lists
-
----
-
-<br>
 
 1. Example 1.
 2. Example 2.
@@ -354,10 +332,6 @@ Markdown: 1. Example 1.
 <br>
 
 ## Unordered Lists
-
----
-
-<br>
 
 - Example 1.
 - Example 2.
@@ -407,10 +381,6 @@ Markdown: `This is a code example.`
 
 ## Code Blocks
 
----
-
-<br>
-
 > Code blocks are created by indenting each line by four spaces or one tab (two tabs in VS Code).
 > 
 > It is more convenient and easily readable to use fenced code blocks, rather than indents which are explained ahead.
@@ -424,10 +394,6 @@ Markdown: `This is a code example.`
 <!-- The above code block is only indented for the purpose of example. -->
 
 ## Fenced Code Blocks
-
----
-
-<br>
 
 ````
 <h2>
@@ -464,8 +430,6 @@ Markdown: ````python
 
 # Horizontal Rules
 
-<br>
-
 ***
 
 ---
@@ -498,10 +462,6 @@ Markdown: Click here to go to [Google](https://google.com).
 
 ## Adding Titles
 
----
-
-<br>
-
 Click here to go to [Google](https://google.com "Google Oogle").
 
 ````
@@ -511,10 +471,6 @@ Markdown: Click here to go to [Google](https://google.com "Google Oogle").
 <br>
 
 ## URLs and Email Addresses
-
----
-
-<br>
 
 <https://amazon.com>
 
@@ -529,10 +485,6 @@ Markdown: <https://amazon.com>
 <br>
 
 ## Reference-style Links
-
----
-
-<br>
 
 > You can position the referenced link(s) anywhere else further down in the document.
 
@@ -561,10 +513,6 @@ Markdown: ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_o
 <br>
 
 ## Image Linking
-
----
-
-<br>
 
 [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
 
@@ -646,10 +594,6 @@ Markdown: | Column 1  | Column 2  |
 <br>
 
 ## Alignment
-
----
-
-<br>
 
 ### Left Alignment
 
