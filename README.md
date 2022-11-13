@@ -205,8 +205,6 @@ Markdown: Example 1.
 
 ## Bold
 
----
-
 <br>
 
 > You can use either ** or __ for a bold effect, but since you can only use ** for text within text, I would advise focusing strictly on ** usage.
