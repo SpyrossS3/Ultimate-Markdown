@@ -579,6 +579,8 @@ Escapable Characters:
 > https://www.tablesgenerator.com/markdown_tables
 > https://anywaydata.com/
 
+<br>
+
 | Column 1  | Column 2  |
 | --------- | --------- |
 | Headers   | Titles    |
