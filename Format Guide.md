@@ -11,6 +11,7 @@ So you may find yourself wanting to contribute, and that's great! If you do want
 - [Best Practices](#best-practices)
   - [Break Lines](#break-lines)
   - [Headers](#headers)
+  - [Code Blocks](#code-blocks)
 
 <br>
 
@@ -50,3 +51,4 @@ Example:    # Heading
 Example:    ````
             Some content in a code block.
             ````
+````
