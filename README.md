@@ -97,53 +97,69 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 
 # Header 1
 
-    Markdown: # Header 1
+````
+Markdown: # Header 1
+````
 
 <br>
 
 ## Header 2
 
-    Markdown: ## Header 2
+````
+Markdown: ## Header 2
+````
 
 <br>
 
 ### Header 3
 
-    Markdown: ### Header 3
+````
+Markdown: ### Header 3
+````
 
 <br>
 
 #### Header 4
 
-    Markdown: #### Header 4
+````
+Markdown: #### Header 4
+````
 
 <br>
 
 ##### Header 5
 
-    Markdown: ##### Header 5
+````
+Markdown: ##### Header 5
+````
 
 <br>
 
 ###### Header 6
 
-    Markdown: ###### Header 6
+````
+Markdown: ###### Header 6
+````
 
 <br>
 
 Header Level 1
 ====
 
-    Markdown: Header Level 1
-            ====  
+````
+Markdown: Header Level 1
+          ====  
+````
 
 <br>
 
 Header Level 2
 ----
 
-    Markdown: Header Level 2
-            ----
+````
+Markdown: Header Level 2
+          ----
+````
 
 <br>
 
@@ -157,9 +173,11 @@ Paragraph example 1.
 
 Paragraph example 2.
 
-    Markdown: Paragraph example 1.
+````
+Markdown: Paragraph example 1.
 
-            Paragraph example 2.
+          Paragraph example 2.
+````
 
 <br>
 
@@ -174,10 +192,12 @@ Example 2.
 <br>
 Example 3.
 
-    Markdown: Example 1.  
-              Example 2.
-              <br>
-              Example 3.
+````
+Markdown: Example 1.  
+          Example 2.
+          <br>
+          Example 3.
+````
 
 <br>
 
@@ -199,11 +219,13 @@ __Example 2.__
 
 Ex**ampl**e 3.
 
-    Markdown: **Example 1.**
+````
+Markdown: **Example 1.**
 
-            __Example 2.__
+          __Example 2.__
 
-            Ex**ampl**e 3.
+          Ex**ampl**e 3.
+````
 
 <br>
 
@@ -223,11 +245,13 @@ _Example 2._
 
 Ex*ampl*e 3.
 
-    Markdown: *Example 1.*
+````
+Markdown: *Example 1.*
 
-            _Example 2._
+          _Example 2._
 
-            Ex*ampl*e 3.
+          Ex*ampl*e 3.
+````
 
 <br>
 
@@ -249,13 +273,15 @@ __*Example 3.*__
 
 **_Example 4._**
 
-    Markdown: ***Example 1.***
+````
+Markdown: ***Example 1.***
 
-            ___Example 2.___
+          ___Example 2.___
 
-            __*Example 3.*__
+          __*Example 3.*__
 
-            **_Example 4._**
+          **_Example 4._**
+````
 
 <br>
 
@@ -263,7 +289,9 @@ __*Example 3.*__
 
 > Example 1.
 
-    Markdown: > Example 1.
+````
+Markdown: > Example 1.
+````
 
 <br>
 
@@ -277,9 +305,11 @@ __*Example 3.*__
 >
 > Example 2.
 
-    Markdown: > Example 1.
-            >
-            > Example 2.
+````
+Markdown: > Example 1.
+          >
+          > Example 2.
+````
 
 <br>
 
@@ -293,9 +323,11 @@ __*Example 3.*__
 >
 >> Example 2.
 
-    Markdown: > Example 1.
-            >
-            >> Example 2.
+````
+Markdown: > Example 1.
+          >
+          >> Example 2.
+````
 
 <br>
 
@@ -313,11 +345,13 @@ __*Example 3.*__
    2. Example 4.
 3. Example 5.
         
-        Markdown: 1. Example 1.
-                2. Example 2.
-                  1. Example 3.
-                  2. Example 4.
-                3. Example 5.
+````
+Markdown: 1. Example 1.
+          2. Example 2.
+            1. Example 3.
+            2. Example 4.
+          3. Example 5.
+````
 
 <br>
 
@@ -343,21 +377,23 @@ __*Example 3.*__
 + Example 2.
   + Example 3.
 
-        Markdown: - Example 1.
-                - Example 2.
-                  - Example 3.
+````
+Markdown: - Example 1.
+          - Example 2.
+          - Example 3.
 
-                <br>
+          <br>
 
-                * Example 1.
-                * Example 2.
-                  * Example 3.
+          * Example 1.
+          * Example 2.
+            * Example 3.
 
-                <br>
+          <br>
 
-                + Example 1.
-                + Example 2.
-                  + Example 3.
+          + Example 1.
+          + Example 2.
+            + Example 3.
+````
 
 <br>
 
@@ -365,7 +401,9 @@ __*Example 3.*__
 
 `This is a code example.`
 
-    Markdown: `This is a code example.`
+````
+Markdown: `This is a code example.`
+````
 
 <br>
 
@@ -377,13 +415,15 @@ __*Example 3.*__
 
 > Code blocks are created by indenting each line by four spaces or one tab (two tabs in VS Code).
 > 
-> (It may be more convenient to use fenced code blocks, explained ahead.)
+> It is more convenient and easily readable to use fenced code blocks, rather than indents which are explained ahead.
 
 <br>
 
     This is a code block.
 
 <br>
+
+<!-- The above code block is only indented for the purpose of example. -->
 
 ## Fenced Code Blocks
 
@@ -397,12 +437,13 @@ __*Example 3.*__
 </h2>
 ````
 
-    Markdown: ````
-              <h2>
-                Hello! This is an example!
-              </h2>
-              ````
-
+````
+Markdown: ````
+          <h2>
+          Hello! This is an example!
+          </h2>
+          ````
+````
 <br>
 
 ### Syntax Highlighting
@@ -414,12 +455,14 @@ for x in text:
   print(x + x)
 ````
 
-    Markdown: ````python
-              text = "Hello"
+````
+Markdown: ````python
+          text = "Hello"
 
-              for x in text:
-                print(x + x)
-              ````
+          for x in text:
+            print(x + x)
+          ````
+````
 
 # Horizontal Rules
 
@@ -431,11 +474,13 @@ for x in text:
 
 ___
 
-    Markdown: ***
+````
+Markdown: ***
 
-            ---
+          ---
 
-            ___
+          ___
+````
 
 <br>
 
@@ -447,7 +492,9 @@ ___
 
 Click here to go to [Google](https://google.com).
 
-    Markdown: Click here to go to [Google](https://google.com).
+````
+Markdown: Click here to go to [Google](https://google.com).
+````
 
 <br>
 
@@ -459,7 +506,9 @@ Click here to go to [Google](https://google.com).
 
 Click here to go to [Google](https://google.com "Google Oogle").
 
-    Markdown: Click here to go to [Google](https://google.com "Google Oogle").
+````
+Markdown: Click here to go to [Google](https://google.com "Google Oogle").
+````
 
 <br>
 
@@ -473,9 +522,11 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 <example@gmail.com>
 
-    Markdown: <https://amazon.com>
+````
+Markdown: <https://amazon.com>
 
-            <example@gmail.com>
+          <example@gmail.com>
+````
 
 <br>
 
@@ -493,9 +544,11 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 [1]: https://google.com/images (example)
 
-    Markdown: [example][1]
+````
+Markdown: [example][1]
 
-            [1]: https://google.com/images (example)
+          [1]: https://google.com/images (example)
+````
 
 <br>
 
@@ -503,7 +556,9 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
 
-    Markdown: ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
+````
+Markdown: ![Mona is hulaing... ^^](https://octodex.github.com/images/hula_loop_octodex03.gif)
+````
 
 <br>
 
@@ -515,7 +570,9 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
 
-    Markdown: [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
+````
+Markdown: [![Noir Mona](https://octodex.github.com/images/privateinvestocat.jpg)](https://en.wikipedia.org/wiki/Film_noir)
+````
 
 <br>
 
@@ -523,7 +580,9 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 \* This would be an asterisk without the backslash.
 
-    Markdown: \* This would be an asterisk without the backslash.
+````
+Markdown: \* This would be an asterisk without the backslash.
+````
 
 <br>
 
@@ -531,35 +590,37 @@ Click here to go to [Google](https://google.com "Google Oogle").
 
 <br>
 
-    Escapable Characters:
+````
+Escapable Characters:
     
-        Backslash: \
+    Backslash: \
         
-        Backtick: `
+    Backtick: `
 
-        Asterisk: *
+    Asterisk: *
 
-        Underscore: _
+    Underscore: _
 
-        Curly Braces: { }
+    Curly Braces: { }
 
-        Brackets: [ ]
+    Brackets: [ ]
 
-        Angle Brackets: < >
+    Angle Brackets: < >
 
-        Parentheses: ( )
+    Parentheses: ( )
 
-        Pound Sign: #
+    Pound Sign: #
 
-        Plus Sign: +
+    Plus Sign: +
 
-        Minus Sign (hyphen): -
+    Minus Sign (hyphen): -
 
-        Dot: .
+    Dot: .
 
-        Exclamation Mark: !
+    Exclamation Mark: !
 
-        Pipe: |
+    Pipe: |
+````
 
 <br>
 
@@ -577,10 +638,12 @@ Click here to go to [Google](https://google.com "Google Oogle").
 | Headers   | Titles    |
 | Palala    | Text      |
 
-    Markdown: | Column 1  | Column 2  |
-              | --------- | --------- |
-              | Headers   | Titles    |
-              | Palala    | Text      |
+````
+Markdown: | Column 1  | Column 2  |
+          | --------- | --------- |
+          | Headers   | Titles    |
+          | Palala    | Text      |
+````
 
 <br>
 
@@ -597,10 +660,12 @@ Click here to go to [Google](https://google.com "Google Oogle").
 | Headers   | Titles    |
 | Palala    | Text      |
 
-    Markdown: | Column 1  | Column 2  |
-              | :-------- | :-------- |
-              | Headers   | Titles    |
-              | Palala    | Text      |
+````
+Markdown: | Column 1  | Column 2  |
+          | :-------- | :-------- |
+          | Headers   | Titles    |
+          | Palala    | Text      |
+````
 
 <br>
 
@@ -611,10 +676,12 @@ Click here to go to [Google](https://google.com "Google Oogle").
 | Headers   | Titles    |
 | Palala    | Text      |
 
-    Markdown: | Column 1  | Column 2  |
-              | :-------: | :-------: |
-              | Headers   | Titles    |
-              | Palala    | Text      |
+````
+Markdown: | Column 1  | Column 2  |
+          | :-------: | :-------: |
+          | Headers   | Titles    |
+          | Palala    | Text      |
+````
 
 <br>
 
@@ -625,10 +692,12 @@ Click here to go to [Google](https://google.com "Google Oogle").
 | Headers   | Titles    |
 | Palala    | Text      |
 
-    Markdown: | Column 1  | Column 2  |
-              | --------: | --------: |
-              | Headers   | Titles    |
-              | Palala    | Text      |
+````
+Markdown: | Column 1  | Column 2  |
+          | --------: | --------: |
+          | Headers   | Titles    |
+          | Palala    | Text      |
+````
 
 <br>
 
