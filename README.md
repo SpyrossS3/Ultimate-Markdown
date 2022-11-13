@@ -2,9 +2,11 @@
 
 # __Ultimate-Markdown__
 
-The ultimate Markdown cheatsheet! A comprehensive, (eventually) all-encompassing Markdown reference.
+The ultimate Markdown cheatsheet! A comprehensive, (eventually) all-encompassing Markdown reference. And that's only the beginning...
 
 Much of the beginning information can be found at the links given below, however this Readme provides a concise and well-formatted reference sheet all in one place.
+
+Besides this reference, however, I've included a Discussions board so anyone wanting to talk about anything related to Markdown can join. I hope this can become a place where others can find a community for Markdown and a good reference and support as well.
 
 <br>
 
@@ -14,9 +16,17 @@ It started when I needed a good reference for Markdown, as I was still a beginne
 
 <br>
 
-## References
+## Get Involved
 
-Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdownguide.org/extended-syntax/ for the complete standard reference.
+Want to get involved in some way? You're welcome to! If you want to talk about the project, or anything Markdown related, you're welcome to head over to the Discussions area [here](https://github.com/SpyrossS3/Ultimate-Markdown/discussions/1#discussion-4561200).
+
+On the other hand, if you're interested in contributing to the project in some way and adding in your own needs, then first see the formatting guide for contributors [here](https://github.com/SpyrossS3/Ultimate-Markdown/blob/main/Format%20Guide.md).
+
+<br>
+
+## Either way, welcome to the project! 🎉
+
+<br>
 
 <br>
 
@@ -25,6 +35,14 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://commonmark.org)
 [![GitHub license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/SpyrossS3/Ultimate-Markdown/blob/main/LICENSE)
 [![HitCount](https://hits.dwyl.com/SpyrossS3/Ultimate-Markdown.svg?style=flat-square&show=unique)](https://hits.dwyl.com/SpyrossS3/Ultimate-Markdown)
+
+<br>
+
+## References
+
+Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdownguide.org/extended-syntax/ for the complete standard reference.
+
+<br>
 
 <br>
 
