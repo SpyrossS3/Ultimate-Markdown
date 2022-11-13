@@ -86,6 +86,7 @@ Refer to https://www.markdownguide.org/basic-syntax/ and https://www.markdowngui
     - [Left Alignment](#left-alignment)
     - [Center Alignment](#center-alignment)
     - [Right Alignment](#right-alignment)
+- [Footnotes](#footnotes)
 
 <br>
 
@@ -645,3 +646,21 @@ Markdown: | Column 1  | Column 2  |
 
 <br>
 
+# Footnotes
+
+> The footnotes in a document will always be found at the very end of the document, placed there automatically.
+
+![Footnote example](footnote_ex_MD.jpg)
+
+````
+Markdown: Example footnote 1.[^1] Example footnote 2.[^bignote]
+But example footnote 3.[^text3]
+
+          [^1]: Hello. I'm footnote 1.
+          [^bignote]: Hola, I am footnote 2.
+          [^text3]: Yes, I'm example footnote 3!
+
+          (Example is shown below)
+````
+
+<br>
