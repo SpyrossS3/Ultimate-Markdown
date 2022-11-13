@@ -22,40 +22,31 @@ So you may find yourself wanting to contribute, and that's great! If you do want
 
 ### Break Lines
 
+````
+Example:    Some fancy, funny text.
 
-        Example: Some fancy, funny text.
+            <br>
 
-                <br>
-
-                Some more text.
+            Some more text.
+````
 
 <br>
 
 ### Headers
 
-    Level 1 Heading:    # Heading 1
-                
-                        Text...
+````
+Example:    # Heading
 
-                        <br>
+            Text...
 
-<br>
-
-    Level 2 Heading:    ## Heading 2
-
-                        ---
-
-                        <br>
-
-                        Text.
-
-                        <br>
+            <br>
+````
 
 <br>
 
-    Level 3 Heading:    ### Heading 3
+### Code Blocks
 
-                        Text.
-
-                        <br>
-
+````
+Example:    ````
+            Some content in a code block.
+            ````
