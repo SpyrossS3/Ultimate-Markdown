@@ -578,6 +578,7 @@ Escapable Characters:
 > A couple to try: 
 > 
 > https://www.tablesgenerator.com/markdown_tables
+> 
 > https://anywaydata.com/
 
 <br>
@@ -659,8 +660,8 @@ But example footnote 3.[^text3]
           [^1]: Hello. I'm footnote 1.
           [^bignote]: Hola, I am footnote 2.
           [^text3]: Yes, I'm example footnote 3!
-
-          (Example is shown below)
 ````
+
+> (Example is shown above but not written, as it will disrupt the formatting flow of the rest of the document.)
 
 <br>
